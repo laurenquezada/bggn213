@@ -60,7 +60,7 @@ s1 <- read.pdb("4AKE")  # kinase with drug
     ##   Note: Accessing on-line PDB file
 
     ## Warning in get.pdb(file, path = tempdir(), verbose = FALSE): /var/folders/
-    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//Rtmpb8VEjv/4AKE.pdb exists. Skipping
+    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//RtmpWH87MT/4AKE.pdb exists. Skipping
     ## download
 
 ``` r
@@ -70,7 +70,7 @@ s2 <- read.pdb("1AKE")  # kinase no drug
     ##   Note: Accessing on-line PDB file
 
     ## Warning in get.pdb(file, path = tempdir(), verbose = FALSE): /var/folders/
-    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//Rtmpb8VEjv/1AKE.pdb exists. Skipping
+    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//RtmpWH87MT/1AKE.pdb exists. Skipping
     ## download
 
     ##    PDB has ALT records, taking A only, rm.alt=TRUE
@@ -82,7 +82,7 @@ s3 <- read.pdb("1E4Y")  # kinase with drug
     ##   Note: Accessing on-line PDB file
 
     ## Warning in get.pdb(file, path = tempdir(), verbose = FALSE): /var/folders/
-    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//Rtmpb8VEjv/1E4Y.pdb exists. Skipping
+    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//RtmpWH87MT/1E4Y.pdb exists. Skipping
     ## download
 
 ``` r
@@ -131,7 +131,7 @@ lq_protein(x)
     ##   Note: Accessing on-line PDB file
 
     ## Warning in get.pdb(file, path = tempdir(), verbose = FALSE): /var/folders/
-    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//Rtmpb8VEjv/4AKE.pdb exists. Skipping
+    ## 1_/_n1fc0xn4wb95r42s_j98wmh0000gp/T//RtmpWH87MT/4AKE.pdb exists. Skipping
     ## download
 
 ![](RMD_Lecture6HW_LQ_files/figure-markdown_github/unnamed-chunk-3-1.png)
