@@ -1,7 +1,7 @@
 ---
 title: "lecture_14_walkthrough"
 author: "LQ"
-date: "5/17/2019 - Class 14: Transcriptomics and the analysis of RNA-Seq d"
+date: "5/17/2019"
 output: github_document
 ---
 
@@ -12,8 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 counts <- read.csv("airway_scaledcounts.csv", stringsAsFactors = FALSE)
 metadata <-  read.csv("airway_metadata.csv", stringsAsFactors = FALSE)
-counts
-metadata
+
 ```
 
 
@@ -68,7 +67,7 @@ head(control.mean)
 
 ```{r}
 names(control.mean) <- counts$ensgene
-names(control.mean)
+
 head(control.mean)
 ```
 
@@ -78,7 +77,7 @@ head(control.mean)
 treated <- metadata[metadata[,"dex"]=="treated",]
 treated.mean <- rowSums( counts[ ,treated$id] )/length(treated$id)
 names(treated.mean) <- counts$ensgene
-names(treated.mean)
+##names(treated.mean)
 head(treated.mean)
 ```
 
@@ -216,7 +215,7 @@ dds <- DESeq(dds)
 
 ```{r}
 res <- results(dds)
-as.data.frame(res)
+##as.data.frame(res)
 
 ```
 
